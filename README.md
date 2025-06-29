@@ -22,6 +22,15 @@ This project was created with the help of the Gemini AI assistant.
 - **JavaScript (ES6 Modules):** For the core application logic.
 - **Three.js:** A powerful 3D graphics library for creating and rendering the scene.
 - **TWEEN.js:** A library for creating smooth animations and transitions.
+- **Python (for local development):** Used only to run a simple local web server. **Python is not part of the project itself.**
+
+## Why is Python needed to run the project?
+
+The project itself is built entirely with **HTML, CSS, and JavaScript**.
+
+However, modern browsers have a security feature called the **Same-Origin Policy**. This policy prevents JavaScript modules (which this project uses via `import`) from being loaded directly from your local file system (`file:///...`). To get around this, the project files must be served by a local web server over the `http://` protocol.
+
+The command `python3 -m http.server` is simply a convenient, built-in way to start such a server without needing to install any extra software. When the project is deployed to a real web hosting service, Python is no longer needed.
 
 ## How to Run
 
