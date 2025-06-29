@@ -6,7 +6,7 @@ This project was created with the help of the Gemini AI assistant.
 
 ## Demo
 
-https://github.com/trashchenkov/atom/assets/17715393/a3de9a3a-1959-4685-a513-674f2e6a221b
+![demo](https://github.com/trashchenkov/atom_visualizer/blob/main/demo.mp4)
 
 ## Features
 
