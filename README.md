@@ -38,8 +38,8 @@ The command `python3 -m http.server` is simply a convenient, built-in way to sta
 
 2.  **Clone the repository (or download the files):**
     ```bash
-    git clone <repository-url>
-    cd <repository-directory>
+    git clone https://github.com/trashchenkov/atom_visualizer.git
+    cd atom_visualizer
     ```
 
 3.  **Start a local server:**
