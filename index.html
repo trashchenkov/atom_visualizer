@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polished Atom Visualizer</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #000;
+            color: #fff;
+        }
+        canvas { display: block; }
+        #ui-panel {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            padding: 20px;
+            background: rgba(20, 20, 30, 0.8);
+            border: 1px solid rgba(100, 100, 200, 0.4);
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            width: 280px;
+        }
+        h1 {
+            font-size: 24px;
+            margin-top: 0;
+            color: #90caff;
+            border-bottom: 1px solid rgba(100, 100, 200, 0.2);
+            padding-bottom: 10px;
+        }
+        label {
+            font-size: 14px;
+            color: #ccc;
+            display: block;
+            margin-bottom: 8px;
+        }
+        #element-select {
+            width: 100%;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid rgba(100, 100, 200, 0.4);
+            background: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+        #element-info p {
+            margin: 0 0 8px 0;
+            font-size: 16px;
+            display: flex;
+            justify-content: space-between;
+        }
+        #element-info span:first-child {
+            color: #aaa;
+        }
+        #element-info span:last-child {
+            font-weight: bold;
+            color: #efefef;
+        }
+    </style>
+</head>
+<body>
+    <div id="ui-panel">
+        <h1>Atom Visualizer</h1>
+        <label for="element-select">Select Element</label>
+        <select id="element-select"></select>
+        <div id="element-info">
+            <p><span>Element:</span> <span id="info-name">-</span></p>
+            <p><span>Atomic Number:</span> <span id="info-atomic-number">-</span></p>
+            <p><span>Protons:</span> <span id="info-protons">-</span></p>
+            <p><span>Neutrons:</span> <span id="info-neutrons">-</span></p>
+            <p><span>Electrons:</span> <span id="info-electrons">-</span></p>
+        </div>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/",
+                "@tweenjs/tween.js": "https://unpkg.com/@tweenjs/tween.js@21.0.0/dist/tween.esm.js"
+            }
+        }
+    </script>
+    <script type="module" src="/main.js"></script>
+</body>
+</html>
