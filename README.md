@@ -4,6 +4,10 @@ This project is an interactive 3D visualization of atomic structures, built usin
 
 This project was created with the help of the Gemini AI assistant.
 
+## Demo
+
+https://github.com/trashchenkov/atom/assets/17715393/a3de9a3a-1959-4685-a513-674f2e6a221b
+
 ## Features
 
 - **Dynamic Atom Creation:** Select elements from a dropdown to instantly visualize their atomic structure.
