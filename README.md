@@ -6,7 +6,7 @@ This project was created with the help of the Gemini AI assistant.
 
 ## Demo
 
-![demo](https://github.com/user-attachments/assets/e0f933ab-99b1-4619-83a6-e6bf392d0672)
+https://github.com/user-attachments/assets/e0f933ab-99b1-4619-83a6-e6bf392d0672
 
 
 
